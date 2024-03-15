@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    max-width: calc(70%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+input[type="text"], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {  
+    opacity: 0;
+    animation-name: sumino;
+    animation-duration: 30s;
+}
+
+@keyframes sumino {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.2;
+    }
+}
