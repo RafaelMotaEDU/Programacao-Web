@@ -5,6 +5,7 @@ body {
 form {
     border: 3px solid #f1f1f1;
     max-width: calc(70%);
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -23,12 +24,27 @@ input[type=submit]{
     padding: 14px 20px;
     border: none;
     cursor: pointer;
+    width: 100%;
 }
 
 input[type=submit]:hover {  
     opacity: 0;
     animation-name: sumino;
     animation-duration: 30s;
+}
+
+.container {
+    padding: 16px;
+}
+
+.imgcontainer{
+    margin: 24px 0;
+    text-align: center;
+}
+
+#logo {
+    width: 30%;
+    border-radius: 50%;
 }
 
 @keyframes sumino {
